@@ -47,5 +47,5 @@ console.log(miArray);
 personas = ["pedro", "juan", "luis", "david", "santiago"];
 console.log(personas);
 
-personasNew = personas.slice(3, 4);
+personasNew = personas.slice(3, 4); //Devuelve de la posicion indicada hasta el 4 pero no la incluye
 console.log(personasNew);
