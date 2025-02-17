@@ -142,8 +142,12 @@ let suma1 = 0;
 numerosArray.forEach((el) => {
   suma1 += el;
 });
-
 console.log(suma1);
+
 //Sumar con reduce
 let total = numerosArray.reduce((acum, num) => acum + num, 0);
 console.log(total);
+
+console.log(
+  "Inmutabilidad, mutabilidad ============================================="
+);
