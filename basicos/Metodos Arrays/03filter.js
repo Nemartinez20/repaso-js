@@ -66,3 +66,93 @@ function filtrar(productos) {
 }
 
 console.log(filtrar(productos));
+
+console.log("===================================");
+
+const ordenes = [
+  {
+    cliente: "juan",
+    total: 60,
+    otro: true,
+  },
+  {
+    cliente: "pedro",
+    total: 100,
+    otro: true,
+  },
+  {
+    cliente: "Victoria",
+    total: 80,
+    otro: true,
+  },
+  {
+    cliente: "David",
+    total: 140,
+    otro: false,
+  },
+  {
+    cliente: "Diego",
+    total: 150,
+    otro: true,
+  },
+  {
+    cliente: "cristian",
+    total: 190,
+    otro: true,
+  },
+  {
+    cliente: "Laura",
+    total: 120,
+    otro: false,
+  },
+  {
+    cliente: "juanpablo",
+    total: 120,
+    otro: true,
+  },
+  {
+    cliente: "camilo",
+    total: 220,
+    otro: false,
+  },
+];
+
+let resul = ordenes.filter((orden) => {
+  return orden.total > 100 && orden.otro == true;
+});
+console.log(resul);
+
+const palabras = ["juan", "limite", "computador", "elemento"];
+
+//CON LE BULCE FOR
+const newArray = [];
+
+for (let i = 0; i < palabras.length; i++) {
+  palabra = palabras[i];
+  console.log(palabra);
+
+  if (palabra.length <= 6) {
+    newArray.push(palabras[i]);
+  }
+}
+
+console.log(newArray);
+
+//CON EL METODO FILTER
+console.log("con el metodo filter");
+
+let nuevo = palabras.filter((palabra) => palabra.length <= 6);
+console.log(nuevo);
+console.log("Original", palabras);
+
+busqueda = {
+  nombre: "juan",
+};
+
+function buscar(string) {
+  return ordenes.filter((orden) => {
+    return orden.cliente.includes(string);
+  });
+}
+
+console.log(buscar("c"));
