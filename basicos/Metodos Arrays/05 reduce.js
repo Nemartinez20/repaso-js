@@ -9,10 +9,11 @@ let otro = numeros.reduce((acumulador, elemento) => {
 
 console.log(otro);
 
-let a = 1;
+let miarray = [2, 3, 4, 5, 6, 7];
 
-for (i = a; i < 10; i++) {
-  a = a * i;
-  console.log(a, i);
-  // console.log(i);
-}
+let resultado = miarray.reduce((acum, item) => {
+  console.log(`el acumulador es ${acum} y este es el item ${item},  `);
+  return (acum = acum + item);
+}, 0);
+
+console.log(resultado);
