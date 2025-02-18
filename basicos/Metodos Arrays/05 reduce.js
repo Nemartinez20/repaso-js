@@ -1,16 +1,25 @@
 //
 //
-// //reduce
+// //reduce suma
 let numeros = [2, 2, 4, 5, 6, 7, 8, 9, 3];
+// con for
 
+suma = 0;
+for (let i = 0; i < numeros.length; i++) {
+  elemento = numeros[i];
+  suma = suma + elemento;
+}
+
+console.log(suma);
+//cn reduce
 let otro = numeros.reduce((acumulador, elemento) => {
   return acumulador + elemento;
 }, 0);
 
 console.log(otro);
 
+//Suma
 let miarray = [2, 3, 4, 5, 6, 7];
-
 let resultado = miarray.reduce((acum, item) => {
   console.log(`el acumulador es ${acum} y este es el item ${item},  `);
   return (acum = acum + item);
@@ -18,8 +27,7 @@ let resultado = miarray.reduce((acum, item) => {
 
 console.log(resultado);
 
-//
-
+// sumar el precio de todos los objetos
 let elementos = [
   { nombre: "Espada de fuego", precio: 1500, elemento: "Fuego" },
   { nombre: "Arco de hielo", precio: 1200, elemento: "Hielo" },
@@ -34,7 +42,7 @@ let precioTotal = elementos.reduce((acumulador, item) => {
 
 console.log(precioTotal);
 
-//
+// sumar cuantas veces aparece un nivel , ej: bajo = 2
 
 let people = [
   { nombre: "Guerrero", nivel: "Alto" },
@@ -63,7 +71,7 @@ let rta = people
 
 console.log(rta);
 
-//
+// convetir esa matriz en un array de una sola dimension
 
 let matriz = [
   [1, 2, 3],
@@ -76,3 +84,18 @@ let plano = matriz.reduce((acum, elemento) => {
 });
 
 console.log(plano);
+
+// ARRAY
+
+const conjunto = [2, 2, 3, 3, 4, 5, 1, 5];
+
+let resConjunto = conjunto.reduce((acum, elemento) => {
+  if (acum[elemento]) {
+    acum[elemento] = acum[elemento] + 1;
+  } else {
+    acum[elemento] = 1;
+  }
+  return acum;
+}, {});
+
+console.log(resConjunto);
