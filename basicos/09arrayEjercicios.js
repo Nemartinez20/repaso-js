@@ -151,3 +151,18 @@ console.log(total);
 console.log(
   "Inmutabilidad, mutabilidad ============================================="
 );
+
+// Ejercicio
+let elementos = [
+  { nombre: "Espada de fuego", precio: 500, elemento: "Fuego" },
+  { nombre: "Arco de hielo", precio: 1200, elemento: "Hielo" },
+  { nombre: "Martillo de tierra", precio: 1800, elemento: "Tierra" },
+  { nombre: "Daga de viento", precio: 900, elemento: "Viento" },
+  { nombre: "Báculo de rayo", precio: 200, elemento: "Rayo" },
+];
+
+let res = elementos.filter((el) => {
+  return el.precio >= 900 && el.elemento == "Viento";
+});
+
+console.log(res);
