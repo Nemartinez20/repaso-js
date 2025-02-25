@@ -19,3 +19,10 @@ while (iterador < 5) {
   console.log("anexio", iterador);
   iterador++;
 }
+
+// do while
+let i = 0;
+do {
+  console.log("con do while", i);
+  i++;
+} while (i < 6);
