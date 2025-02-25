@@ -26,3 +26,22 @@ do {
   console.log("con do while", i);
   i++;
 } while (i < 6);
+
+//For of
+
+const numeros = [2, 3, 4, 4, 6, 7, 8];
+
+for (let valor of numeros) {
+  console.log("con for-of", valor);
+}
+
+// Break continue
+
+for (let i = 0; i < 10; i++) {
+  if (i === 5) {
+    continue;
+  } else if (i === 7) {
+    break;
+  }
+  console.log("continue - break : ", i);
+}
