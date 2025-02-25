@@ -11,3 +11,11 @@ for (let i = 0; i < miarrray.length; i++) {
     console.log("numero pas", i);
   }
 }
+
+//Bucle while
+let iterador = 0;
+
+while (iterador < 5) {
+  console.log("anexio", iterador);
+  iterador++;
+}
