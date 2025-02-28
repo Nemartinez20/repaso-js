@@ -11,6 +11,7 @@
 // ====== CODIGOS DE RESPUESTA
 
 // -200 OK
+// Apis con GET
 
 // Consultando Api JSON-PLACEHOLDER
 url = "https://jsonplaceholder.typicode.com/albums/1/photos";
@@ -40,3 +41,5 @@ const consultarApi = async () => {
 };
 
 consultarApi();
+
+// Apis con POST
