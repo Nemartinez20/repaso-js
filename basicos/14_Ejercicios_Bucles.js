@@ -82,7 +82,51 @@ for (i = 1; i <= 10; i++) {
 }
 
 // 8. Usa un bucle para invertir una cadena de texto
+console.log("Ejericio 8 ========================");
+
+let cadenaTexto = "La vida es un carnaval";
+let cadenaNueva = "";
+for (let i = cadenaTexto.length - 1; i >= 0; i--) {
+  // console.log(cadenaTexto[i]);
+  cadenaNueva = cadenaNueva + cadenaTexto[i];
+}
+
+console.log(cadenaNueva);
 
 // 9. Usa un bucle para generar los primeros 10 números de la secuencia de Fibonacci
+console.log("Ejericio 9 ========================");
+
+let sumaFib = 0;
+let inicial = 1;
+
+for (let i = 0; i <= 3; i++) {
+  console.log(sumaFib);
+  let siguiente = sumaFib + inicial;
+  console.log("inicial 0 + 1: ", siguiente);
+  //cambiamos los valores
+  sumaFib = inicial;
+  console.log("otra", sumaFib);
+
+  inicial = siguiente;
+
+  console.log("nuevamente ", siguiente);
+
+  //
+}
+console.log(sumaFib);
 
 // 10. Dado un array de números, usa un bucle para crear un nuevo array que contenga solo los números mayores a 10
+
+console.log("Ejericio 10 ========================");
+
+const miArrayTwo = [2, 3, 4, 5, 6, 9, 12, 13, 16, 15, 18, 12, 32];
+let nuevo = [];
+
+for (let i = 0; i < miArrayTwo.length; i++) {
+  if (miArrayTwo[i] > 10) {
+    console.log(miArrayTwo[i]);
+    nuevo.push(miArrayTwo[i]);
+  }
+}
+
+console.log(nuevo);
