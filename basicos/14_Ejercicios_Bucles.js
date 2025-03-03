@@ -100,12 +100,12 @@ let sumaFib = 0;
 let inicial = 1;
 
 for (let i = 0; i <= 3; i++) {
-  console.log(sumaFib);
+  // console.log(sumaFib);
   let siguiente = sumaFib + inicial;
-  console.log("inicial 0 + 1: ", siguiente);
+  // console.log("inicial 0 + 1: ", siguiente);
   //cambiamos los valores
   sumaFib = inicial;
-  console.log("otra", sumaFib);
+  // console.log("otra", sumaFib);
 
   inicial = siguiente;
 

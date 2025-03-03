@@ -56,6 +56,7 @@ function convertirMayus(texto) {
 convertirMayus("la vida es un carnaval bonito");
 
 // 5. Crea una función que reciba un número y devuelva true si es primo, y false en caso contrario
+console.log("===== Ejercicio 5 de funciones ======");
 
 function numeroPrimo(numero) {
   if (numero <= 0 && numero % numero === 0) {
@@ -67,6 +68,7 @@ function numeroPrimo(numero) {
 
 numeroPrimo(5);
 // 6. Crea una función que reciba dos arrays y devuelva un nuevo array que contenga los elementos comunes entre ambos
+console.log("===== Ejercicio 6 de funciones ======");
 
 // 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
 

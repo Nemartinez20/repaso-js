@@ -52,8 +52,7 @@ function recibeFunciones(funcio, parametro) {
 recibeFunciones(sumar, 10, 40);
 
 //ForEach
-
-const array = [2, 3, 4, 5, 6, 7, 8, 9];
+array = [2, 3, 4, 5, 6, 7, 8, 9];
 
 for (mio of array) {
   console.log("con for - of: ", mio);

@@ -84,3 +84,5 @@ console.log(nums3);
 let n2 = 5;
 let rta = nums3.indexOf(n2);
 console.log(`El numero ${n2} esta en el indice ${rta}`);
+
+function palabrasJuntas(nombre) {}

@@ -3,6 +3,7 @@
 let numeros = [10, 20, 30, 40, 50];
 
 //Eliimna el 2,3 numero de array
+// (Inicio(posicion), cuantos(elementos a eliminar))
 let eliminados = numeros.splice(1, 3);
 
 console.log(numeros);
