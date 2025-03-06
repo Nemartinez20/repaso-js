@@ -71,9 +71,48 @@ numeroPrimo(5);
 console.log("===== Ejercicio 6 de funciones ======");
 
 // 7. Crea una función que reciba un array de números y devuelva la suma de todos los números pares
+console.log("===== Ejercicio 7 de funciones ======");
+
+function sumarPares(arrayMio) {
+  sumaEj7 = 0;
+  for (i = 0; i < arrayMio.length; i++) {
+    if (arrayMio[i] % 2 === 0) {
+      sumaEj7 = sumaEj7 + arrayMio[i];
+    }
+  }
+  console.log(sumaEj7);
+}
+
+const miArraycito = [2, 23, 4, 5, 7, 8, 9, 12, 14, 15, 16, 2, 10];
+
+sumarPares(miArraycito);
 
 // 8. Crea una función que reciba un array de números y devuelva un nuevo array con cada número elevado al cuadrado
+console.log("===== Ejercicio 8 de funciones ======");
 
+function newArray(otroArray) {
+  resultadoEj8 = 0;
+  for (let i = 0; i < otroArray.length; i++) {
+    console.log(otroArray[i] * otroArray[i]);
+  }
+}
+
+newArray(miArraycito);
 // 9. Crea una función que reciba una cadena de texto y devuelva la misma cadena con las palabras en orden inverso
+console.log("===== Ejercicio 9 de funciones ======");
 
+function cadenaOrdenInverso(cadena) {
+  console.log(cadena.split(" ").reverse().join(""));
+}
+
+cadenaUno = "Lola lolita lang en España";
+
+cadenaOrdenInverso(cadenaUno);
 // 10. Crea una función que calcule el factorial de un número dado
+console.log("===== Ejercicio 10 de funciones ======");
+
+function numeroFactorial(numeroFact) {
+  console.log("numero factorial de ", numeroFact);
+}
+
+numeroFactorial(8);
