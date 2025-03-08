@@ -1,5 +1,10 @@
 // 1. Realiza una petición GET con fetch() a JSONPlaceholder y muestra en la consola la lista de publicaciones
 
+console.log("Ejercicio 1 ================================");
+
+fetch("https://jsonplaceholder.typicode.com/todos")
+  .then((res) => res.json())
+  .then((result) => console.log(result));
 // 2. Modifica el ejercicio anterior para que verifique si la respuesta es correcta usando response.ok. Si no lo es, lanza y muestra un error
 
 // 3. Reescribe el ejercicio 1 usando la sintaxis async/await en lugar de promesas
