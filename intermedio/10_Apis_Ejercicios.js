@@ -6,7 +6,10 @@ fetch("https://jsonplaceholder.typicode.com/todos")
   .then((res) => res.json())
   .then((result) => console.log(result));
 // 2. Modifica el ejercicio anterior para que verifique si la respuesta es correcta usando response.ok. Si no lo es, lanza y muestra un error
-
+fetch("https://jsonplaceholder.typicode.com/todos2")
+  .then((res) => res.json())
+  .then((result) => console.log(result))
+  .catch((error) => console.log(error));
 // 3. Reescribe el ejercicio 1 usando la sintaxis async/await en lugar de promesas
 
 // 4. Realiza una petición POST a JSONPlaceholder para crear una nueva publicación. Envía un objeto con propiedades como title o body
