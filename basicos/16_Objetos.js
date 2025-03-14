@@ -10,9 +10,11 @@ let persona = {
 // Acceso a propiedades
 
 // Notación punto
-console.log(persona.name);
+console.log(persona.nombre);
 
 // Notación de corchetes
-console.log(persona["name"]);
+console.log(persona["nombre"]);
 
 // Modificación de propiedades
+persona.nombre = "Andres";
+console.log(persona);
