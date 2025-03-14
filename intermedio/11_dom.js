@@ -44,7 +44,6 @@ const tiene = link.hasAttribute("target"); // devuelve true o false si tene un d
 console.log(tiene);
 
 //Eliminar atributos
-
 link.removeAttribute("target");
 const link3 = document.querySelector("a");
 console.log(link3);
