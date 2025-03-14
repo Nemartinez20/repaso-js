@@ -51,3 +51,18 @@ let persona2 = {
 
 console.log(persona2);
 console.log(persona2.job.nombre);
+
+//iteracion
+
+persona4 = {
+  nombre: "perdro",
+  edad: 45,
+  email: "correo@correo.com",
+  sauladr: function () {
+    console.log(
+      `Hola mi nombre es ${this.nombre}  soy programador de React, mi email es ${this.email}`
+    );
+  },
+};
+
+persona4.sauladr();
