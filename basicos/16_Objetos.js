@@ -66,3 +66,7 @@ persona4 = {
 };
 
 persona4.sauladr();
+
+persona4.apellido = "Moreno";
+
+console.log(persona4);
