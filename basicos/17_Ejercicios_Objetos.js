@@ -28,7 +28,16 @@ persona.saludar();
 // 6. Itera las propiedades del objeto
 
 // 7. Crea un objeto anidado
-
+persona2 = {
+  nombre: "juan",
+  apellido: "Moreno",
+  edad: 34,
+  persona1: {
+    nombre: "juan",
+    apellido: "Moreno",
+    edad: 34,
+  },
+};
 // 8. Accede y muestra el valor de las propiedades anidadas
 
 // 9. Comprueba si los dos objetos creados son iguales
