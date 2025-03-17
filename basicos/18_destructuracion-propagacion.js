@@ -24,6 +24,15 @@ const [uno1 = 0, dos2 = 0, tres2 = 0, cu0 = 0, cinco = 0, seis = 0, siete = 0] =
 console.log(uno1);
 console.log(siete);
 
-//Objetos
-const { nombre } = persona;
+// Syntasix Objetos
+// let { nombre, appelido, edad } = persona;
+// console.log(nombre);
+// console.log(appelido);
+// console.log(edad);
+
+//Sintasix de objetos con valores predetermindos
+let { nombre, appelido, edad, email = "juan@correo.com" } = persona;
 console.log(nombre);
+console.log(appelido);
+console.log(edad);
+console.log(email);
