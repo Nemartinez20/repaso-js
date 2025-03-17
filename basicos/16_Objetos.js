@@ -70,3 +70,14 @@ persona4.sauladr();
 persona4.apellido = "Moreno";
 
 console.log(persona4);
+
+//Funciones como  Objetos
+
+function people(name, age) {
+  this.name = name;
+  this.age = age;
+}
+
+let pedro = new people("pedro", 34);
+console.log(pedro);
+console.log(typeof pedro);
