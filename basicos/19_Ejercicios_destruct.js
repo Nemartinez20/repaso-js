@@ -6,6 +6,10 @@ const [uno, dos] = miArray;
 console.log(uno, dos);
 // 2. Usa desestructuración en un array y asigna un valor predeterminado a una variable
 
+const frutas = ["manzana", "peras", "bananos"];
+const [uno1, dos1, tres = "lulo"] = frutas;
+console.log(uno1, dos1, tres);
+
 // 3. Usa desestructuración para extraer dos propiedades de un objeto
 
 persona = {
