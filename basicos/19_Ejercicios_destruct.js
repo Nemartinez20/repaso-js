@@ -8,6 +8,13 @@ console.log(uno, dos);
 
 // 3. Usa desestructuración para extraer dos propiedades de un objeto
 
+persona = {
+  nombre: "juan",
+  eda: 24,
+};
+
+const { nombre, eda } = persona;
+console.log(nombre, eda);
 // 4. Usa desestructuración para extraer dos propiedades de un objeto y asígnalas
 //    a nuevas variables con nombres diferentes
 
