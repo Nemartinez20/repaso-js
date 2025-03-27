@@ -86,21 +86,36 @@ class Carro {
   #marca;
   #modelo;
   #year;
-  constructor(marca, modelo, year) {
+  #combustible;
+
+  constructor(marca, modelo, year, combustible) {
     this.#marca = marca;
     this.#modelo = modelo;
     this.#year = year;
+    this.#combustible = combustible;
   }
 
   //3 . implemetnar getter
   get obtenrMarca() {
     return `La marca del coche es: ${this.#marca}`;
   }
+
+  //4 Actualizar valor de combustible
+  set actualizarCombustible(newData) {
+    this.#combustible = newData;
+  }
+  get obtenrCombustible() {
+    return `Tienes un deposito de combustible con: ${this.#combustible}`;
+  }
 }
 
 // 2. instanciar
 
-let carro1 = new Carro("chevolet", "Aveo Emotion", 2014);
+let carro1 = new Carro("chevolet", "Aveo Emotion", 2014, 50000);
 console.log(carro1); //No devuelve nada ya que todo esta privado
 
 console.log(carro1.obtenrMarca); // chevrolet
+
+carro1.actualizarCombustible = 100000; // actualiza el valor de 50000 a 100000
+
+console.log(carro1.obtenrCombustible);
