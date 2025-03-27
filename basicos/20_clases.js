@@ -78,3 +78,29 @@ class Persona3Private {
 
 let personPriv = new Persona2("Pedro", "Morales", 25, "389292893#");
 console.log(personPriv.pago); //No se puede acceder , ya que esta privada
+
+// ============================  CLASES CON GETTERS  =================
+
+// 1. crear
+class Carro {
+  #marca;
+  #modelo;
+  #year;
+  constructor(marca, modelo, year) {
+    this.#marca = marca;
+    this.#modelo = modelo;
+    this.#year = year;
+  }
+
+  //3 . implemetnar getter
+  get obtenrMarca() {
+    return `La marca del coche es: ${this.#marca}`;
+  }
+}
+
+// 2. instanciar
+
+let carro1 = new Carro("chevolet", "Aveo Emotion", 2014);
+console.log(carro1); //No devuelve nada ya que todo esta privado
+
+console.log(carro1.obtenrMarca); // chevrolet
