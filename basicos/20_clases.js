@@ -56,3 +56,25 @@ let rtaPersona2 = new Persona2("Pedro", "Morales", 25);
 
 //Se ejecuta el metodo
 rtaPersona2.saludar();
+
+// ============================  CLASES CON PROPS PRIVADAS  =================
+
+//1. definir la clse con su constructor y su metodos
+class Persona3Private {
+  //Para poner las prpiedades privadas se coloca un # antes
+  #bank;
+  constructor(name, lastname, age, bank) {
+    this.name = name;
+    this.lastname = lastname;
+    this.age = age;
+    this.#bank = bank;
+  }
+
+  //funcion o metodo
+  pago() {
+    console.log(`El numero de tu cuenta es: ${this.#bank}`);
+  }
+}
+
+let personPriv = new Persona2("Pedro", "Morales", 25, "389292893#");
+console.log(personPriv.pago); //No se puede acceder , ya que esta privada
