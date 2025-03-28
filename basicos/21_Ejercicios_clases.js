@@ -1,4 +1,9 @@
 // 1. Crea una clase que reciba dos propiedades
+class Persona {
+  constructor(name, lastname) {
+    this.name = name;
+  }
+}
 
 // 2. Añade un método a la clase que utilice las propiedades
 
