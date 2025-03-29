@@ -13,7 +13,7 @@ class Persona1 {
     this.lastname = lastname;
   }
   saludar() {
-    console.log(`desde`);
+    console.log(`Hola como estan me llamo ${this.name}`);
   }
 }
 // 3. Muestra los valores de las propiedades e invoca a la función
