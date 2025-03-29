@@ -2,11 +2,20 @@
 class Persona {
   constructor(name, lastname) {
     this.name = name;
+    this.lastname = lastname;
   }
 }
 
 // 2. Añade un método a la clase que utilice las propiedades
-
+class Persona1 {
+  constructor(name, lastname) {
+    this.name = name;
+    this.lastname = lastname;
+  }
+  saludar() {
+    console.log(`desde`);
+  }
+}
 // 3. Muestra los valores de las propiedades e invoca a la función
 
 // 4. Añade un método estático a la primera clase
