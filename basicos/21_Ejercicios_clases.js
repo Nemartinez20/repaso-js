@@ -18,6 +18,10 @@ class Persona1 {
 }
 // 3. Muestra los valores de las propiedades e invoca a la función
 
+let juan = new Persona1("Juan", "Manuel");
+console.log(juan);
+juan.saludar();
+
 // 4. Añade un método estático a la primera clase
 
 // 5. Haz uso del método estático
