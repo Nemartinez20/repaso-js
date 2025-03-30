@@ -23,6 +23,13 @@ console.log(juan);
 juan.saludar();
 
 // 4. Añade un método estático a la primera clase
+class Persona3 {
+  constructor(name, lastname, email) {
+    this.name = name;
+    this.lastname = lastname;
+    this.email = email;
+  }
+}
 
 // 5. Haz uso del método estático
 
