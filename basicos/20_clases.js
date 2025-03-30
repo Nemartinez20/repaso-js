@@ -119,3 +119,26 @@ console.log(carro1.obtenrMarca); // chevrolet
 carro1.actualizarCombustible = 100000; // actualiza el valor de 50000 a 100000
 
 console.log(carro1.obtenrCombustible);
+
+// ============================  HERENCIA DE CLASES   =================
+
+class persona4 {
+  constructor(name, lastname) {
+    this.name = name;
+    this.lastname = lastname;
+  }
+
+  saludar() {
+    console.log(`hola mucho gusto me llamo ${this.name}`);
+  }
+}
+
+class estudiante extends persona4 {
+  materia() {
+    console.log(`El estudiante ve muchas materias`);
+  }
+}
+
+let Mario = new estudiante("Mario", "Camargo");
+
+console.log(Mario);
