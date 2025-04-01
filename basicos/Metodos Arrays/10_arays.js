@@ -12,6 +12,7 @@ let texto = "Hola mundo estory aprendiedo a programr";
 array = texto.split(" "); //convertir en u array  tomando lo espacios
 newarray = array.slice(0, 3); //obtiene los primeros
 finalString = newarray.join(" ");
+
 console.log(array);
 console.log(newarray);
 console.log(finalString);
