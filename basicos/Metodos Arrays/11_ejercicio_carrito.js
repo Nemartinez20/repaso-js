@@ -142,8 +142,6 @@ productos = [
   // Agregar hasta 50 productos similares
 ];
 
-console.log(typeof productos);
-
 let busqueda = {
   precio: 3,
   categoria: "All",
