@@ -51,6 +51,22 @@ class Persona4 {
 juan = new Persona4("Juan David", "Lorenzo", "correo@correo.com", 24);
 
 juan.obnerNombre();
+
+//Clase con herencia
+class student extends Persona4 {
+  //herdar props
+
+  //Nuevos metodos
+  registrarMateria() {
+    return console.log(
+      `el estudienate ${this.name} tiene que inscribir materias`
+    );
+  }
+}
+
+Lorena = new student("Lorena", "Rico", "corrreolorena@correo.com", 28);
+
+console.log(Lorena);
 // 7. Crea una clase que haga uso de getters y setters
 
 // 8. Modifica la clase con getters y setters para que use propiedades privadas
