@@ -1,0 +1,96 @@
+* [33mdc255f7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m consultando api de rickandmorty
+* [33mbcaf72f[m creando fucnion para que reciba una callbck
+* [33m2e95396[m agregando ejercicio de herencia de clases
+* [33m7024042[m agregando ejercicios de clases
+* [33m3043f83[m agregando ejercisios de filtros
+* [33m8aeea0a[m agrega ejercicio d arrays
+* [33mc2545ef[m  agregando ejrccios de objetos
+* [33m9b035cd[m repaso de objetos
+* [33m2ad76b4[m agregando manejpd e errores
+* [33m3b9ee86[m agregando herencia de clases
+* [33m5a60c6b[m agregando ejrcicio 3 de clases
+* [33m2e0add6[m agregando ejrcicio 3 de clases
+* [33md21bbfb[m agregando metodo a la clses
+* [33m79a2d3a[m agreagdno ejercicio de clases
+* [33m6f027c4[m resolviendo ejercicio uno de clases
+* [33mf2d9e74[m modificando el valor de el combsutible que es private
+* [33m42569e7[m acceder a los datos por medio de le getter
+* [33m9a3cfad[m agregando ejercicios de clases
+* [33m611b03b[m agregando clases con props privadas
+* [33mb105f69[m se agrega metodo en las clases
+* [33m3cc7e66[m agregando clases con valores por default
+* [33m7aacfd8[m creando clases con su constructor
+* [33mc527695[m probando comit de git
+* [33mba5486d[m a ggre
+* [33mc3d0841[m agregando archivo de clases
+* [33m39cbbe6[m resolve ejercicio 2
+* [33m7715837[m resolviendo ejercicio 3
+* [33m4a151f2[m solucionando ejercicio 1
+* [33mf31d309[m agregando ejercicios de destructuracion
+* [33m830f344[m destructuracion de objetos con valores por defecto
+* [33m7086d44[m destructuracion de arrays con valores por defecto
+* [33m217dcc3[m agregando destructuracion
+* [33m7af0a74[m agregando objetos como fucntion
+* [33mea78564[m crandoobjetos anidados
+* [33m9d3006a[m agregando ejercicios de objetos
+* [33m0826eb5[m aagregando propiedades a el objeto
+* [33m1f6f22c[m hacer refencia con this
+* [33m66505ba[m agregaddo manipulacion del dom
+* [33m2efc827[m agregandometodos de objetos
+* [33me7fb614[m se agrega file objetos
+* [33mec77c21[m primer ejercicios de apis con fethc con error
+* [33md5e8192[m primer ejercicios de apis con fethc
+* [33mc28dd5d[m agregando archivo de dom
+* [33m10e5ab7[m agregando ejercicios de apis
+* [33mbd1fecf[m agregando ejercicios de async
+* [33m6464576[m Agregando soluciion de ejercicio de funciones
+* [33m9f14848[m agregando objetos acceso
+* [33mb40918d[m agregando objetos
+* [33mc06d5aa[m actualizando files 14 -16
+* [33m353e624[m agregando ejercicios de funciones
+* [33mfd51551[m Agregando tema de funciones en js
+* [33m42df00a[m Agregando ejercicios de loops0
+* [33m7b6caef[m agregando apis
+* [33m6f76c97[m Se agrega consultas de apis por async await
+* [33m146e95e[m agregando  learn  apis
+* [33m7e50ac0[m Agregando ejercicios de asyncronia
+* [33m1781f0f[m agregando ejercicios de bucles
+* [33m6e44d10[m agregando ejercicios de bucles
+* [33md18a76a[m agregando el for of
+* [33mb19b6d8[m agregando el do-while
+* [33m9e4979e[m agregando el while
+* [33m5f5ddad[m actualizando file
+* [33mc765244[m se agrega el file bulces
+* [33ma68f1e9[m Se agrega ejercicios de arrays
+* [33mc060977[m agrega ejercicios de estructuras de data
+* [33m271027f[m agregando los Map
+* [33me542ba6[m Se agregan los sets
+* [33mf8602aa[m agregando asincronia y soncronia
+* [33m8c70bdb[m se agrega ejercicios de reduce
+* [33mdc783e8[m agregando ejercicioscon metodo filter y blucle for
+* [33m68ac200[m agregando ejercicio de map inmutable
+* [33m0fada2c[m trabajando con elemento mutables e inmutables
+* [33mc7af45c[m agregando ejercicios de reduce
+* [33m9bd8840[m agregando ejercicio de reduce
+* [33m605867b[m organi mkdir
+*   [33m08e616f[m subiendo worklenovo v2
+[32m|[m[33m\[m  
+[32m|[m * [33m5489e0b[m agraegando  metodos find indexof redece
+[32m|[m * [33m61aed3e[m agregando el readme
+[32m|[m * [33m47ca2d6[m agregando ejercicios de github - practica
+[32m|[m * [33m68f42c0[m agregando find - idexof
+[32m|[m * [33m1ecea1f[m agregando ejercicios de slice
+[32m|[m * [33m902c476[m agregando ejercicios de arrays splice
+[32m|[m *   [33m3cee8df[m Merge branch 'main' of https://github.com/Nemartinez20/repaso-js
+[32m|[m [34m|[m[35m\[m  
+[32m|[m * [35m|[m [33m5bb8f53[m agregando filtros
+* [35m|[m [35m|[m [33m74465a8[m subiendo worklenovo
+[35m|[m [35m|[m[35m/[m  
+[35m|[m[35m/[m[35m|[m   
+* [35m|[m [33md42a12d[m learning methos forEach
+[35m|[m[35m/[m  
+* [33m1ed35ee[m se agregan ejercicios de arrays
+* [33mbb87885[m agregando basicos de arrays
+* [33m9820c52[m agregando archivos
+* [33m14e93d1[m agregando nuevos metodos de arreglos
+* [33m65c2824[m Agregadno proyecto

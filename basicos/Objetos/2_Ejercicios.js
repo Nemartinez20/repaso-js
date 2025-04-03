@@ -46,3 +46,5 @@ const factura = {
 };
 
 factura.calcular();
+
+//aplicando destructuracion
