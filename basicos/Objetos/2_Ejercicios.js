@@ -61,4 +61,6 @@ console.log(name);
 
 //
 nuevaPersona = { ...pesonaFists };
+
+nuevaPersona.name = "Pedro";
 console.log(nuevaPersona);
