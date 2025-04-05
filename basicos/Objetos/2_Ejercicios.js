@@ -48,3 +48,13 @@ const factura = {
 factura.calcular();
 
 //aplicando destructuracion
+
+pesonaFists = {
+  name: "jab",
+  lastname: "moreno",
+  age: 25,
+};
+
+const { name } = pesonaFists;
+
+console.log(name);
