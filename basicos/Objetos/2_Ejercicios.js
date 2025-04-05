@@ -58,3 +58,7 @@ pesonaFists = {
 const { name } = pesonaFists;
 
 console.log(name);
+
+//
+nuevaPersona = { ...pesonaFists };
+console.log(nuevaPersona);
