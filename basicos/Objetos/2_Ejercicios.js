@@ -69,3 +69,4 @@ miArray = [1, 2, 3, 4, 2];
 console.log(miArray);
 
 nuevoArray = { ...miArray };
+console, log("hola mundo ");
