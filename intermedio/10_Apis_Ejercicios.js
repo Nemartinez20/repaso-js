@@ -11,7 +11,7 @@ fetch("https://jsonplaceholder.typicode.com/todos2")
   .then((result) => console.log(result))
   .catch((error) => console.log(error));
 // 3. Reescribe el ejercicio 1 usando la sintaxis async/await en lugar de promesas
-
+console.log("desarrollo deejrcicio 3de apis");
 // 4. Realiza una petición POST a JSONPlaceholder para crear una nueva publicación. Envía un objeto con propiedades como title o body
 
 // 5. Utiliza el método PUT para actualizar completamente un recurso (por ejemplo, modificar una publicación) en JSONPlaceholder
