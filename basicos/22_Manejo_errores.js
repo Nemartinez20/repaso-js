@@ -38,3 +38,16 @@ try {
   //se ejecuta siempre asi se cumpla el try o el catch
   console.log("siempre se ejecuta");
 }
+
+//Lanzar errores
+
+// throw new Error("este es un error");
+
+function sumar(a, b) {
+  if (typeof a != Number || typeof b != Number) {
+    console.log("Nose pueden sumar esas propiedes");
+  }
+  return a + b;
+}
+
+console.log(sumar(4 + 5));
